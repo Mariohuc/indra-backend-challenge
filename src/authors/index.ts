@@ -1,5 +1,4 @@
 import { handlerPath } from "@common/utils";
-import { schema } from "./authors.schema";
 
 export const getAllAuthors = {
   handler: `${handlerPath(__dirname)}/handler.getAllAuthors`,
@@ -19,12 +18,7 @@ export const createAuthor = {
     {
       http: {
         method: "post",
-        path: "authors",
-        request: {
-          schemas: {
-            "application/json": schema,
-          },
-        },
+        path: "authors"
       },
     },
   ],

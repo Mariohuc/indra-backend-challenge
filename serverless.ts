@@ -1,3 +1,4 @@
+import "reflect-metadata";
 import type { AWS } from "@serverless/typescript";
 import { createAuthor, getAllAuthors } from "src/authors";
 import { getAllPeople, getPersonById } from "src/people";

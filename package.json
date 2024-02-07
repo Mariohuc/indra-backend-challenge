@@ -16,6 +16,8 @@
     "@middy/core": "^3.4.0",
     "@middy/http-json-body-parser": "^3.4.0",
     "axios": "^1.4.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
     "reflect-metadata": "^0.2.1",
     "serverless-dynamodb": "^0.2.43",
     "tsyringe": "^4.8.0",
